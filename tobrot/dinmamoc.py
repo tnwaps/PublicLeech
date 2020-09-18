@@ -20,7 +20,7 @@ from tobrot.get_cfg import get_config
 class Commandi:
     LEECH = get_config(
         "COMMANDI_LEECH",
-        "leech"
+        "leech@torlecbot"
     )
     PURGE = get_config(
         "COMMANDI_PURGE",
@@ -28,19 +28,19 @@ class Commandi:
     )
     YTDL = get_config(
         "COMMANDI_YTDL",
-        "ytdl"
+        "ytdl@torlecbot"
     )
     STATUS = get_config(
         "COMMANDI_STATUS",
-        "status"
+        "status@torlecbot"
     )
     CANCEL = get_config(
         "COMMANDI_CANCEL",
-        "cancel"
+        "cancel@torlecbot"
     )
     EXEC = get_config(
         "COMMANDI_EXEC",
-        "exec"
+        "exec@torlecbot"
     )
     EVAL = get_config(
         "COMMANDI_EVAL",
@@ -48,23 +48,23 @@ class Commandi:
     )
     RENAME = get_config(
         "COMMANDI_RENAME",
-        "rename"
+        "rename@torlecbot"
     )
     UPLOAD = get_config(
         "COMMANDI_UPLOAD",
-        "upload"
+        "upload@torlecbot"
     )
     HELP = get_config(
         "COMMANDI_HELP",
-        "help"
+        "help@torlecbot"
     )
     SAVETHUMBNAIL = get_config(
         "COMMANDI_SAVETHUMBNAIL",
-        "savethumbnail"
+        "savethumb@torlecbot"
     )
     CLEARTHUMBNAIL = get_config(
         "COMMANDI_CLEARTHUMBNAIL",
-        "clearthumbnail"
+        "clearthumb@torlecbot"
     )
     GET_RCLONE_CONF_URI = get_config(
         "COMMANDI_GET_RCLONE_CONF_URI",
